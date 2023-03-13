@@ -28,6 +28,22 @@ def Make_Join(Componets):
 
 tools = [
      path('trans',translate_),
+     path('convert_text',convert_text),
+     path('wikipedia_summary',wikipedia_summary),
+     path('convert_docx_to_pdf',convert_docx_to_pdf),
+     path('convert_pdf_to_docx',convert_pdf_to_docx),
+     path('convert_pdf_to_excel',convert_pdf_to_excel),
+     path('convert_excel_to_pdf',convert_excel_to_pdf),
+     path('convert_jpg_to_pdf',convert_jpg_to_pdf),
+     path('convert_jpg_to_word',convert_jpg_to_word),
+     path('calculator',calculator),
+     path('cgpa_calculator',cgpa_calculator),
+     path('handwriting_converter',handwriting_converter),
+     path('keyword_to_image',keyword_to_image),
+     path('video_meeting',video_meeting),
+
+     path('gpa_calculator',gpa_calculator),
+     path('get_subject',get_subject),
 ]
 
 common = [
